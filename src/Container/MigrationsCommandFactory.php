@@ -55,7 +55,7 @@ class MigrationsCommandFactory
      */
     public function __invoke(ContainerInterface $container)
     {
-        $className = sprintf('Doctrine\DBAL\Migrations\Tools\Console\Command\%sCommand', $this->commandKey);
+        $className = sprintf('Doctrine\Migrations\Tools\Console\Command\%sCommand', $this->commandKey);
         $configuration = $container->get(MigrationsConfiguration::class);
 
         /* @var $command \Doctrine\Migrations\Tools\Console\Command\AbstractCommand */
