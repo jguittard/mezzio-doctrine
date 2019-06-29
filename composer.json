@@ -18,7 +18,10 @@
     "doctrine/orm": "^2.6",
     "ramsey/uuid": "^3.8",
     "ramsey/uuid-doctrine": "^1.5",
-    "ramsey/uuid-console": "^1.1"
+    "ramsey/uuid-console": "^1.1",
+    "zendframework/zend-validator": "^2.12",
+    "doctrine/data-fixtures": "^1.3",
+    "doctrine/migrations": "^2.1"
   },
   "require-dev": {
     "phpunit/phpunit": "^7.0",
@@ -47,5 +50,6 @@
       "component": "Zend\\Expressive\\Doctrine",
       "config-provider": "Zend\\Expressive\\Doctrine\\ConfigProvider"
     }
-  }
+  },
+  "bin": ["bin/doctrine-cli", "bin/doctrine-cli.php"]
 }
