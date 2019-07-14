@@ -26,6 +26,7 @@ class ConfigProvider
     {
         return [
             'dependencies' => $this->getDependencyConfig(),
+            'validators' => $this->getValidators(),
         ];
     }
 
