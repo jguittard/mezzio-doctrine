@@ -4,12 +4,12 @@
  */
 declare(strict_types=1);
 
-namespace Zend\Expressive\Doctrine\Validator;
+namespace Mezzio\Doctrine\Validator;
 
 /**
  * Class NoObjectExists
  *
- * @package Zend\Expressive\Doctrine\Validator
+ * @package Mezzio\Doctrine\Validator
  */
 class NoObjectExists extends ObjectExists
 {

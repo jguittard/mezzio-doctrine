@@ -5,7 +5,7 @@
 
 declare(strict_types=1);
 
-namespace Zend\Expressive\Doctrine;
+namespace Mezzio\Doctrine;
 
 use Doctrine\Migrations\Configuration\Configuration as MigrationsConfiguration;
 use Doctrine\ORM\EntityManagerInterface;
@@ -13,7 +13,7 @@ use Doctrine\ORM\EntityManagerInterface;
 /**
  * Class ConfigProvider
  *
- * @package Zend\Expressive\Doctrine
+ * @package Mezzio\Doctrine
  */
 class ConfigProvider
 {

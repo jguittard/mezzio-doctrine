@@ -1,6 +1,6 @@
 {
-  "name": "zendframework/zend-expressive-doctrine",
-  "description": "Set of Doctrine services configured for Zend Expressive",
+  "name": "mezzio/mezzio-doctrine",
+  "description": "Set of Doctrine services configured for Mezzio",
   "type": "library",
   "minimum-stability": "stable",
   "license": "MIT",
@@ -19,7 +19,7 @@
     "ramsey/uuid": "^3.8",
     "ramsey/uuid-doctrine": "^1.5",
     "ramsey/uuid-console": "^1.1",
-    "zendframework/zend-validator": "^2.12",
+    "laminas/laminas-validator": "^2.12",
     "doctrine/data-fixtures": "^1.3",
     "doctrine/migrations": "^2.1"
   },
@@ -27,18 +27,17 @@
     "phpunit/phpunit": "^7.0",
     "psr/container": "^1.0",
     "squizlabs/php_codesniffer": "^2.5",
-    "zendframework/zend-coding-standard": "~1.0.0",
     "phpstan/phpstan": "^0.10.6",
     "phpstan/phpstan-strict-rules": "^0.10.1"
   },
   "autoload": {
     "psr-4": {
-      "Zend\\Expressive\\Doctrine\\": "src/"
+      "Mezzio\\Doctrine\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "ZendTest\\Expressive\\Doctrine\\": "test/"
+      "MezzioTest\\Doctrine\\": "test/"
     }
   },
   "extra": {
@@ -47,8 +46,8 @@
       "dev-develop": "1.1-dev"
     },
     "zf": {
-      "component": "Zend\\Expressive\\Doctrine",
-      "config-provider": "Zend\\Expressive\\Doctrine\\ConfigProvider"
+      "component": "Mezzio\\Doctrine",
+      "config-provider": "Mezzio\\Doctrine\\ConfigProvider"
     }
   },
   "bin": ["bin/doctrine-cli", "bin/doctrine-cli.php"]

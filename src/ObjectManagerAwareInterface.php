@@ -5,14 +5,14 @@
 
 declare(strict_types=1);
 
-namespace Zend\Expressive\Doctrine;
+namespace Mezzio\Doctrine;
 
 use Doctrine\Common\Persistence\ObjectManager;
 
 /**
  * Interface ObjectManagerAwareInterface
  *
- * @package Zend\Expressive\Doctrine
+ * @package Mezzio\Doctrine
  */
 interface ObjectManagerAwareInterface
 {

@@ -4,15 +4,15 @@
  */
 declare(strict_types=1);
 
-namespace Zend\Expressive\Doctrine\Validator;
+namespace Mezzio\Doctrine\Validator;
 
 use Doctrine\Common\Persistence\ObjectManager;
-use Zend\Validator\Exception;
+use Laminas\Validator\Exception;
 
 /**
  * Class UniqueObject
  *
- * @package Zend\Expressive\Doctrine\Validator
+ * @package Mezzio\Doctrine\Validator
  */
 class UniqueObject extends ObjectExists
 {

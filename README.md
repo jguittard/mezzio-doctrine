@@ -1,2 +1,2 @@
 # zend-expressive-doctrine
-Doctrine implementation for Zend Expressive
+Doctrine implementation for Mezzio

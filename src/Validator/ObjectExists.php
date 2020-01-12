@@ -4,17 +4,17 @@
  */
 declare(strict_types=1);
 
-namespace Zend\Expressive\Doctrine\Validator;
+namespace Mezzio\Doctrine\Validator;
 
 use Doctrine\Common\Persistence\ObjectRepository;
-use Zend\Stdlib\ArrayUtils;
-use Zend\Validator\AbstractValidator;
-use Zend\Validator\Exception;
+use Laminas\Stdlib\ArrayUtils;
+use Laminas\Validator\AbstractValidator;
+use Laminas\Validator\Exception;
 
 /**
  * Class ObjectExists
  *
- * @package Zend\Expressive\Doctrine\Validator
+ * @package Mezzio\Doctrine\Validator
  */
 class ObjectExists extends AbstractValidator
 {

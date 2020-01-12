@@ -8,12 +8,12 @@ namespace Zend\Expressive\Doctrine\Container;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Psr\Container\ContainerInterface;
-use Zend\Expressive\Doctrine\Fixture\FixtureCommand;
+use Mezzio\Doctrine\Fixture\FixtureCommand;
 
 /**
  * Class FixtureCommandFactory
  *
- * @package Zend\Expressive\Doctrine\Container
+ * @package Mezzio\Doctrine\Container
  */
 class FixtureCommandFactory
 {

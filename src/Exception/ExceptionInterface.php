@@ -5,12 +5,12 @@
 
 declare(strict_types=1);
 
-namespace Zend\Expressive\Doctrine\Exception;
+namespace Mezzio\Doctrine\Exception;
 
 /**
  * Interface ExceptionInterface
  *
- * @package Zend\Expressive\Doctrine\Exception
+ * @package Mezzio\Doctrine\Exception
  */
 interface ExceptionInterface
 {

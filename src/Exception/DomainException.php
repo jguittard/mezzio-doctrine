@@ -4,14 +4,14 @@
  */
 declare(strict_types=1);
 
-namespace Zend\Expressive\Doctrine\Exception;
+namespace Mezzio\Doctrine\Exception;
 
 use DomainException as SplDomainException;
 
 /**
  * Class DomainException
  *
- * @package Zend\Expressive\Doctrine\Exception
+ * @package Mezzio\Doctrine\Exception
  */
 class DomainException extends SplDomainException implements ExceptionInterface
 {

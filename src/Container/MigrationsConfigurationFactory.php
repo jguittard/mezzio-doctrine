@@ -5,14 +5,14 @@
 
 declare(strict_types=1);
 
-namespace Zend\Expressive\Doctrine\Container;
+namespace Mezzio\Doctrine\Container;
 
 use Doctrine\Migrations\Configuration\Configuration;
 use Psr\Container\ContainerInterface;
 
 /**
  * Class MigrationsConfigurationFactory
- * @package Zend\Expressive\Doctrine\Container
+ * @package Mezzio\Doctrine\Container
  */
 class MigrationsConfigurationFactory extends AbstractFactory
 {
