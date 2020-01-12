@@ -19,7 +19,7 @@ $helperSet = new HelperSet([
 ]);
 
 $commands = [
-    $container->get(Zend\Expressive\Doctrine\Fixture\FixtureCommand::class),
+    $container->get(Mezzio\Doctrine\Fixture\FixtureCommand::class),
     $container->get('doctrine.migrations_cmd.execute'),
     $container->get('doctrine.migrations_cmd.generate'),
     $container->get('doctrine.migrations_cmd.migrate'),
