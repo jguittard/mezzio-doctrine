@@ -4,7 +4,7 @@
  */
 declare(strict_types=1);
 
-namespace Zend\Expressive\Doctrine\Container;
+namespace Mezzio\Doctrine\Container;
 
 use Doctrine\DBAL\Types\Type;
 use Doctrine\ORM\EntityManager;
@@ -13,7 +13,7 @@ use Psr\Container\ContainerInterface;
 /**
  * Class EntityManagerFactory
  *
- * @package Zend\Expressive\Doctrine\Container
+ * @package Mezzio\Doctrine\Container
  */
 class EntityManagerFactory extends AbstractFactory
 {

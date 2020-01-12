@@ -4,7 +4,7 @@
  */
 declare(strict_types=1);
 
-namespace Zend\Expressive\Doctrine\Container;
+namespace Mezzio\Doctrine\Container;
 
 use Doctrine\Common\Annotations\AnnotationReader;
 use Doctrine\Common\Annotations\AnnotationRegistry;
@@ -13,12 +13,12 @@ use Doctrine\Common\Persistence\Mapping\Driver\AnnotationDriver;
 use Doctrine\Common\Persistence\Mapping\Driver\FileDriver;
 use Doctrine\Common\Persistence\Mapping\Driver\MappingDriverChain;
 use Psr\Container\ContainerInterface;
-use Zend\Expressive\Doctrine\Exception;
+use Mezzio\Doctrine\Exception;
 
 /**
  * Class DriverFactory
  *
- * @package Zend\Expressive\Doctrine\Container
+ * @package Mezzio\Doctrine\Container
  */
 class DriverFactory extends AbstractFactory
 {

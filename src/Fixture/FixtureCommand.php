@@ -4,7 +4,7 @@
  */
 declare(strict_types=1);
 
-namespace Zend\Expressive\Doctrine\Fixture;
+namespace Mezzio\Doctrine\Fixture;
 
 use Doctrine\Common\DataFixtures\Executor\ORMExecutor;
 use Doctrine\Common\DataFixtures\Loader;
@@ -19,7 +19,7 @@ use Symfony\Component\Console\Input\InputOption;
 /**
  * Class FixtureCommand
  *
- * @package Zend\Expressive\Doctrine\Fixture
+ * @package Mezzio\Doctrine\Fixture
  */
 class FixtureCommand extends Command
 {

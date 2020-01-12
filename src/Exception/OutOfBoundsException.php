@@ -5,14 +5,14 @@
 
 declare(strict_types=1);
 
-namespace Zend\Expressive\Doctrine\Exception;
+namespace Mezzio\Doctrine\Exception;
 
 use OutOfBoundsException as SplOutOfBoundsException;
 
 /**
  * Class OutOfBoundsException
  *
- * @package Zend\Expressive\Doctrine\Exception
+ * @package Mezzio\Doctrine\Exception
  */
 class OutOfBoundsException extends SplOutOfBoundsException implements ExceptionInterface
 {

@@ -5,14 +5,14 @@
 
 declare(strict_types=1);
 
-namespace Zend\Expressive\Doctrine\Exception;
+namespace Mezzio\Doctrine\Exception;
 
 use InvalidArgumentException as SplInvalidArgumentException;
 
 /**
  * Class InvalidArgumentException
  *
- * @package Zend\Expressive\Doctrine\Exception
+ * @package Mezzio\Doctrine\Exception
  */
 class InvalidArgumentException extends SplInvalidArgumentException implements ExceptionInterface
 {

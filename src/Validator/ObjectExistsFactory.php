@@ -4,7 +4,7 @@
  */
 declare(strict_types=1);
 
-namespace Zend\Expressive\Doctrine\Validator;
+namespace Mezzio\Doctrine\Validator;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Psr\Container\ContainerInterface;
@@ -12,7 +12,7 @@ use Psr\Container\ContainerInterface;
 /**
  * Class ObjectExistsFactory
  *
- * @package Zend\Expressive\Doctrine\Validator
+ * @package Mezzio\Doctrine\Validator
  */
 class ObjectExistsFactory
 {

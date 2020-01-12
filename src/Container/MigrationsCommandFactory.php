@@ -5,16 +5,16 @@
 
 declare(strict_types=1);
 
-namespace Zend\Expressive\Doctrine\Container;
+namespace Mezzio\Doctrine\Container;
 
 use Doctrine\Migrations\Configuration\Configuration as MigrationsConfiguration;
 use Psr\Container\ContainerInterface;
-use Zend\Expressive\Doctrine\Exception;
+use Mezzio\Doctrine\Exception;
 
 /**
  * Class MigrationsCommandFactory
  *
- * @package Zend\Expressive\Doctrine\Container
+ * @package Mezzio\Doctrine\Container
  */
 class MigrationsCommandFactory
 {

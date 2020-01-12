@@ -4,7 +4,7 @@
  */
 declare(strict_types=1);
 
-namespace Zend\Expressive\Doctrine\Container;
+namespace Mezzio\Doctrine\Container;
 
 use Doctrine\Common\Cache\ApcuCache;
 use Doctrine\Common\Cache\ArrayCache;
@@ -17,12 +17,12 @@ use Doctrine\Common\Cache\RedisCache;
 use Doctrine\Common\Cache\WinCacheCache;
 use Doctrine\Common\Cache\ZendDataCache;
 use Psr\Container\ContainerInterface;
-use Zend\Expressive\Doctrine\Exception;
+use Mezzio\Doctrine\Exception;
 
 /**
  * Class CacheFactory
  *
- * @package Zend\Expressive\Doctrine\Container
+ * @package Mezzio\Doctrine\Container
  */
 class CacheFactory extends AbstractFactory
 {

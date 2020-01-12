@@ -5,15 +5,15 @@
 
 declare(strict_types=1);
 
-namespace Zend\Expressive\Doctrine\Container;
+namespace Mezzio\Doctrine\Container;
 
 use Psr\Container\ContainerInterface;
-use Zend\Expressive\Doctrine\Exception;
+use Mezzio\Doctrine\Exception;
 
 /**
  * Class AbstractFactory
  *
- * @package Zend\Expressive\Doctrine\Container
+ * @package Mezzio\Doctrine\Container
  */
 abstract class AbstractFactory
 {
