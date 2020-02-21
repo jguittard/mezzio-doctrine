@@ -2,7 +2,6 @@
   "name": "mezzio/mezzio-doctrine",
   "description": "Set of Doctrine services configured for Mezzio",
   "type": "library",
-  "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
@@ -16,7 +15,7 @@
   "require": {
     "php": "^7.2",
     "doctrine/orm": "^2.6",
-    "ramsey/uuid": "^3.8 | ^4",
+    "ramsey/uuid": "^3.5 | ^4",
     "ramsey/uuid-doctrine": "^1.6",
     "laminas/laminas-validator": "^2.12",
     "doctrine/data-fixtures": "^1.3",
